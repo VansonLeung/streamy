@@ -1,10 +1,10 @@
 Package.describe({
-  name: 'yuukan:streamy',
-  version: '1.4.0',
+  name: 'vansonhk:streamy',
+  version: '1.4.1',
   // Brief, one-line summary of the package.
-  summary: 'Simple interface to use the underlying sockjs in a meteor application',
+  summary: 'Meteor SockJS communication implementation (Removed support for Accounts)',
   // URL to the Git repository containing the source code for this package.
-  git: 'https://github.com/YuukanOO/streamy',
+  git: 'https://github.com/VansonLeung/streamy',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
@@ -55,5 +55,5 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('yuukan:streamy');
+  api.use('vansonhk:streamy');
 });
